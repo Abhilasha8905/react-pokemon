@@ -5,7 +5,7 @@ This project is a React-based web application that displays a list of Pokémon f
 
 ## Features
 - **Infinite Scrolling**: Load more Pokémon dynamically as the user scrolls.
-- **Search Functionality**: Filter Pokémon based on their names.
+- **Search Functionality**: Filter Pokémon based on their names. (debounced search)
 - **Favorite Toggle**: Mark Pokémon as favorites and filter to view only favorites.
 - **Optimized Performance**: Utilizes `useReducer` for state management and `useCallback`/`useMemo` to prevent unnecessary re-renders.
 
